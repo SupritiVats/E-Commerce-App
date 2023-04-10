@@ -73,7 +73,7 @@ export default function Navbar() {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>CHALO KHARIDO AB</Logo>
+          <Logo>TO? SHURU KAREIN</Logo>
         </Center>
         <Right>
           <MenuItem>Register</MenuItem>
