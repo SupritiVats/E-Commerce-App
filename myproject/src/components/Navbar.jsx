@@ -49,7 +49,7 @@ const Logo = styled.h1`
 `;
 
 const MenuItem=styled.div`
-font-size: 14px;
+font-size: 15px;
 cursor: pointer;
 margin-left: 25px; `
 
