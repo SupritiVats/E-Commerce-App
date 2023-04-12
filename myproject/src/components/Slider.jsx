@@ -51,7 +51,7 @@ height: 80%`
 
 const InfoContainer= styled.div
 `flex: 1;
-padding: 50px`
+padding: 50 px`
 const Slider = () => {
   return (
     <Container>
