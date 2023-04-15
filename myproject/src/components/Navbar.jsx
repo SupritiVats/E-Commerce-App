@@ -73,7 +73,7 @@ export default function Navbar() {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>TO? SHURU KAREIN</Logo>
+          <Logo>WE_TREND</Logo>
         </Center>
         <Right>
           <MenuItem>Register</MenuItem>
