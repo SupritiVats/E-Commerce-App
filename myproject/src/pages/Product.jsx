@@ -5,13 +5,14 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import four from '../Assests/4.jpg'
-// import { mobile } from "../responsive";
+import { mobile } from "../responsive";
 
 const Container = styled.div``;
 
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
+  ${mobile({ padding: "10px", flexDirection:"column" })}
  
 `;
 // ${mobile({ padding: "10px", flexDirection:"column" })}
@@ -24,6 +25,7 @@ const Image = styled.img`
   width: 85%;
   height: 80vh;
   object-fit: cover;
+  ${mobile({ height: "40vh" })}
  
 `;
 // ${mobile({ height: "40vh" })}
@@ -38,6 +40,7 @@ const InfoContainer = styled.div`
 const Title = styled.h1`
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
+  ${mobile({ padding: "10px" })}
 `;
 
 const Desc = styled.p`
@@ -54,6 +57,7 @@ const FilterContainer = styled.div`
   margin: 30px 0px;
   display: flex;
   justify-content: space-between;
+  ${mobile({ width: "100%" })}
 `;
 // ${mobile({ width: "100%" })}
 
@@ -88,7 +92,7 @@ const AddContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  ${mobile({ width: "100%" })}
 `;
 // ${mobile({ width: "100%" })}
 

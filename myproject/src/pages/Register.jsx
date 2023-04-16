@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import { mobile } from "../responsive";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
   padding: 20px;
   background-color: #cfd1ee;
   border: 1px solid #888DD5;
-  
+  ${mobile({ width: "75%" })}
 `;
 // ${mobile({ width: "75%" })}
 
