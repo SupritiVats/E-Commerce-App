@@ -1,6 +1,7 @@
 // import Home from './pages/Home';
 // import Product from './pages/Product';
-import Register from './pages/Register';
+import Cart from './pages/Cart';
+// import Register from './pages/Register';
 // import ProductList from './pages/ProductList';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     // <Home/>
     // <Product/>
     // <ProductList/>
-    <Register/>
+    // <Register/>
+    <Cart/>
   );
 }
 
