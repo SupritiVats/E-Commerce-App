@@ -3,6 +3,7 @@ import { Search,  ShoppingCartOutlined } from "@material-ui/icons";
 import styled from "styled-components";
 import { Badge } from "@material-ui/core";
 import { mobile } from "../responsive.js";
+// import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 //import { Input } from '@material-ui/core';
 
@@ -85,6 +86,8 @@ export default function Navbar() {
           <Logo>WE_TREND</Logo>
         </Center>
         <Right>
+          {/* <MenuItem className="nav-link active" to="/pages/Register">Register</MenuItem> */}
+          {/* <Link to="/register"> </Link> */}
           <MenuItem>Register</MenuItem>
           <MenuItem>Sign In</MenuItem>
           <MenuItem> 
